@@ -167,9 +167,9 @@
             ctx.stroke();
 
             ctx.moveTo(0, 0);
-            ctx.scale(1.1, 1.1);   //0.75, 0.75
+            ctx.scale(1.3, 1.3);   //0.75, 0.75
             ctx.font = "12px Verdana";     // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("快进来玩玩！哈哈", 23, 10);//Come Baby,
+            ctx.fillText("Come Baby,快进来玩玩！哈哈", 23, 10); //
             ctx.restore();
         },
         clear: function() {
